@@ -39,11 +39,11 @@ function corralSalida() {
         }
     } else {
         if (corral < 1) {
-            alert("Tu corral de salida es el D");
+            alert("Tu corral de salida es el F");
         } else if (corral == 1) {
             alert("Tu corral de salida es el E");
         } else if (corral > 1) {
-            alert("Tu corral de salida es el F")
+            alert("Tu corral de salida es el D")
         }
 
     }

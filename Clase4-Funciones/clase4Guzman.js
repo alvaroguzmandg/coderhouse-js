@@ -1,7 +1,7 @@
 alert("Bienvenido al formulario de inscripción");
 let nombre = prompt("Ingrese su nombre");
 
-let carrera = prompt("Hola " + nombre + " elije la carrera que deseas inscribirte \n'A' para 42k \n'B' para 21k \nO cualquier letra para salir").toUpperCase();;
+let carrera = prompt("Hola " + nombre + " elije la carrera que deseas inscribirte \n'A' para 42k \n'B' para 21k \nO cualquier letra para salir").toUpperCase();
 
 
 
@@ -28,4 +28,5 @@ switch (carrera) {
         carrera = "21k de Buenos Aires"
         break;
 }
-console.log(nombre + " se inscribió en " + carrera)
+console.log(nombre + " se inscribió en " + carrera);
+document.write(nombre + " se inscribió en " + carrera);
