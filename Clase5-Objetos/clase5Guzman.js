@@ -83,6 +83,7 @@ if (usuario1.validarEdad()) {
     usuario1.inscribirse();
     usuario1.eleccionCorral();
     usuario1.pagarInscripcion();
+    document.write("¡Gracias por inscribirte!")
 } else {
     alert("¡Lo esperamos el siguiente año!")
 }
