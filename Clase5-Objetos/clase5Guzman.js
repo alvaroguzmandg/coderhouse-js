@@ -7,6 +7,7 @@ class Carrera {
     }
     restarCupo() {
         this.cupo = this.cupo - 1;
+        return "Quedan " + this.cupo + " cupos";
     }
 }
 
