@@ -41,10 +41,10 @@ class Usuario {
             if (ritmo < 4) {
                 alert("Tu corral de salida es el A");
                 return this.corral = "Corral A"
-            } else if ((ritmo >= 4) && (corral < 5)) {
+            } else if ((ritmo >= 4) && (ritmo < 6)) {
                 alert("Tu corral de salida es el B");
                 return this.corral = "Corral B"
-            } else if ((ritmo >= 5)) {
+            } else if ((ritmo >= 6)) {
                 alert("Tu corral de salida es el C");
                 return this.corral = "Corral C"
             }
@@ -52,10 +52,10 @@ class Usuario {
             if (ritmo < 4) {
                 alert("Tu corral de salida es el D");
                 return this.corral = "Corral D"
-            } else if ((ritmo >= 4) && (corral < 5)) {
+            } else if ((ritmo >= 4) && (ritmo < 6)) {
                 alert("Tu corral de salida es el E");
                 return this.corral = "Corral E"
-            } else if (ritmo >= 5) {
+            } else if (ritmo >= 6) {
                 alert("Tu corral de salida es el F")
                 return this.corral = "Corral F"
             }
