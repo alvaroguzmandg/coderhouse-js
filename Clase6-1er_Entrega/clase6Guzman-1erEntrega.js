@@ -79,20 +79,19 @@ class Corredor {
 
 // Función para Registrar corredor
 function registrarCorredor() {
-    let edadCorredor = prompt("Ingresa tu edad");
+    let edadCorredor = prompt("Esta carrera es apta sólo para mayores de edad\nPor favor ingresa tu edad");
     if (edadCorredor < 18) {
         alert("¡Lo sentimos, la carrera solo es para mayores de 18 años!")
         return
-
-    } else {}
+    }
     let nombreCorredor = prompt("Ingresa tu nombre");
     let apellidoCorredor = prompt("Ingresa tu apellido");
 
     do {
-        carrera = prompt("Elije la carrera que deseas inscribirte \n'1' para 42k \n'2' para 21k");
+        carrera = prompt("Bienvenido " + nombreCorredor + " " + apellidoCorredor + "\nElije la carrera que deseas inscribirte \nIngresa '1' para 42k \no '2' para 21k");
     }
     while ((carrera != 1) && (carrera != 2))
-
+    alert("¡Gracias por registrarte!")
     return (corredor = new Corredor(nombreCorredor, apellidoCorredor, edadCorredor, carrera));
 }
 
@@ -108,9 +107,12 @@ let corredores21k = []
 corredores21k.push(new Corredor("Delfina", "Gaudio", 30, 2, "Corral C", false));
 corredores21k.push(new Corredor("Santiago", "Olivieri", 42, 2, "Corral D", true));
 
+
+// Inicio del proceso
+alert("Bienvenido al formulario de inscripción");
+
 // Función para registrar corredor
 registrarCorredor()
-alert("¡Gracias por registrarte!")
 
 //Funcion para inscribir corredor en la carrera elegida
 corredor.inscribir()
