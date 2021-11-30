@@ -1,0 +1,67 @@
+.contenedorProximosEventos__contenido {
+    justify-content: center!important;
+}
+
+#corredoresRegistrados {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#corredoresRegistrados h2 {
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.registro_inscripcion {
+    font-size: 30px;
+    line-height: 40px;
+    color: #FF5500;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 900;
+    letter-spacing: 0.5;
+}
+
+#corredoresRegistrados span.info_titulo {
+    background-color: #FF5500;
+    color: white;
+    font-weight: 900;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+}
+
+#corredoresRegistrados span.info_corredor {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.entrenaContacto .entrenaContacto__bloqueCentral {
+    display: flex;
+}
+
+.entrenaContacto .entrenaContacto__bloque2 {
+    width: 100%;
+}
+
+form select,
+form input {
+    background-color: #fff;
+    border: 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    color: #8d8d8d;
+    border-radius: 3px;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+}
