@@ -17,7 +17,7 @@ carrera.push(new Carrera("Maratón de Buenos Aires", "42k", "11 de octubre", "Ca
 carrera.push(new Carrera("Media de Buenos Aires", "21k", "11 de octubre", "Capital Federal", "8AM", "arquivos/21kBsAs.png"));
 carrera.push(new Carrera("Carrera Maya", "10k", "25 de mayo", "Capital Federal", "7AM", "arquivos/mayas.png"));
 carrera.push(new Carrera("Patagonia Run", "110k", "7 de abril", "San Martín de los Andes", "2AM", "arquivos/patagoniaRun110k.png"));
-carrera.push(new Carrera("Chicago Marathon", "42k", "17 de octubre", "Chicago, USA", "8AM", "arquivos/42kChicago.png"));
+carrera.push(new Carrera("Chicago Marathon", "42k", "17 de octubre", "Chicago, USA", "8AM", "arquivos/42kchicago.png"));
 carrera.push(new Carrera("Media de Miami", "21k", "14 de enero", "Miami, USA", "6AM", "arquivos/21kmiami.png"));
 carrera.push(new Carrera("Nono Race", "60kg", "13 de junio", "Córdoba", "5AM", "arquivos/nono.png"));
 carrera.push(new Carrera("San Silvestre", "8k", "31 de diciembre", "Capital Federal", "9AM", "arquivos/sanSilvestre.png"));
