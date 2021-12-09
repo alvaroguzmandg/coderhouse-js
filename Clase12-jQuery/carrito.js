@@ -14,9 +14,9 @@ $(() => {
 let desplegar = false;
 $("#bloqueCarrito").click(() => {
     if (desplegar) {
-        $("#carritoCarreras").slideDown("slow");
+        $("#carritoCarreras").slideDown("fast");
     } else {
-        $("#carritoCarreras").slideUp("slow");
+        $("#carritoCarreras").slideUp("fast");
     }
     desplegar = !desplegar;
 })
