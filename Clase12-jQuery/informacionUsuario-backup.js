@@ -19,11 +19,14 @@ $("#encabezadoUsuario").append(`
 </div>
 `);
 
+//Evento cerrar sesión
+$("#btn").click(cerrarSesion());
+
 
 //Función de cerrar sesión
-$("#btn").click(function cerrarSesion() {
+function cerrarSesion() {
     window.location.replace("registro-usuario.html");
-});
+}
 
 
 
@@ -36,7 +39,7 @@ if (localStorage.getItem('carrerasRegistradas') === null) {
     let carrerasAlmacenadas = localStorage.getItem('carrerasRegistradas');
     let carrerasAlmacenadasArray = JSON.parse(carrerasAlmacenadas);
 
-    let contenedor = document.getElementById("carritoCarreras");
+    let contenedor = $("#carritoCarreras");
     contenedor.innerHTML = " "
     htmlString = "<ul>";
 
@@ -57,8 +60,6 @@ if (localStorage.getItem('carrerasRegistradas') === null) {
                     </span>
                     </li>
                     `
-
-
     }
 
     htmlString += "</ul>"

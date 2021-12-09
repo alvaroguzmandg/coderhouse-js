@@ -18,13 +18,7 @@ if (localStorage.getItem("usuario") == null) {
 }
 
 
-
-//REGISTRARSE
-let formularioRegistro = document.getElementById("formularioRegistro");
-formularioRegistro.addEventListener("submit", registrarse);
-// let btnRegistrarse = document.getElementById("btnRegistrarse");
-// btnRegistrarse.addEventListener("submit", registrarse);
-
+//FUNCIÓN DE REGISTRARSE
 function registrarse(event) {
     event.preventDefault();
     let elemento = event.target;
@@ -39,21 +33,11 @@ function registrarse(event) {
     window.location.replace("carreras.html");
 }
 
-
-let btnCrearUsuario = document.getElementById("btnCrearUsuario")
-btnCrearUsuario.onclick = () => {
-    crearSesion();
-}
-
 //Función de cerrar sesión
 function crearSesion() {
     localStorage.clear();
     location.reload();
 }
-
-let formularioInicio = document.getElementById("formularioInicio");
-formularioInicio.addEventListener("submit", loguearse);
-
 
 //VALIDACIÓN DE CONTRASEÑA
 function loguearse(e) {
@@ -74,4 +58,19 @@ function loguearse(e) {
         document.getElementById("formularioInicio").appendChild(errorPass);
 
     }
+}
+
+
+//REGISTRARSE
+let formularioRegistro = document.getElementById("formularioRegistro");
+formularioRegistro.addEventListener("submit", registrarse);
+
+//LOGUEARSE
+let formularioInicio = document.getElementById("formularioInicio");
+formularioInicio.addEventListener("submit", loguearse);
+
+//CREAR SESIÓN
+let btnCrearUsuario = document.getElementById("btnCrearUsuario")
+btnCrearUsuario.onclick = () => {
+    crearSesion();
 }

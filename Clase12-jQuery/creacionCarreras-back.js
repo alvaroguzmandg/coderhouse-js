@@ -14,7 +14,6 @@ class Carrera {
 
 let carrera = [];
 
-
 //Carreras Registradas
 carrera.push(new Carrera("1", "42k Buenos Aires", "42k", "11 de octubre", "Capital Federal", "7AM", "arquivos/42kBsAs.png", false));
 carrera.push(new Carrera("2", "21 Buenos Aires", "21k", "11 de octubre", "Capital Federal", "8AM", "arquivos/21kBsAs.png", false));
@@ -27,7 +26,7 @@ carrera.push(new Carrera("8", "San Silvestre", "8k", "31 de diciembre", "Capital
 carrera.push(new Carrera("9", "Cruce de los Andes", "100k", "3 de diciembre", "San Martín de los Andes", "6AM", "arquivos/cruce.png", false));
 
 
-
+//Función que crea cada bloque de carrera en la página carreras.html
 function calendarioDeCarreras() {
     carrera.forEach((carrera) => {
 
@@ -47,8 +46,6 @@ function calendarioDeCarreras() {
 
     })
 }
-
-
 
 //Función para cargar las carreras en el DOM
 calendarioDeCarreras();
