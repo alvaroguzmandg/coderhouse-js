@@ -8,21 +8,17 @@ if (carrerasRegistradas) {
 
 }
 
-// for (carrera of carrito) {
-//     console.log(carrera.estado)
-// }
-
-const indice = carrito.findIndex((elemento, indice) => {
-    if (elemento.estado) {
-        let data = elemento.id
-        console.log(data)
-
+function verificarEstado() {
+    for (let i = 0; i < carrito.length; i++) {
+        let verificacionCarrito = carrito[i].id
         carrera.forEach((carrera) => {
-            carrera.data.cambiarEstadoInscripcion()
+            if (carrera.id == verificacionCarrito) {
+                carrera.estado = true;
+            }
         })
-
     }
-});
+
+}
 
 
 //Función para agregar carreras al carrito y crear la visualización
@@ -31,7 +27,7 @@ function cargarCarrerasAlCarrito() {
         let btn = document.getElementById(("btnInscripcion" + carrera.id));
         btn.addEventListener("click", () => {
             if (carrera.estado) {
-                document.getElementById(("btnInscripcion" + carrera.id)).innerHTML = `¡YA ESTÁS REGISTRADO!`
+                // document.getElementById(("btnInscripcion" + carrera.id)).innerHTML = `¡YA ESTÁS REGISTRADO!`
             } else {
                 //Animación del botón de Inscripción
                 $("#btnInscripcion" + carrera.id)
@@ -88,6 +84,6 @@ function quitarCarrera() {
             $(".tituloCarrito").text("CARRERAS REGISTRADAS (" + carrito.length + ")")
         }
     }
-
     cargarCarrerasAlCarrito()
+
 }
