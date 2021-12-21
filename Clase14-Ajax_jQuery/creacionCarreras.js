@@ -28,7 +28,7 @@ let carrera = [];
 
 
 
-$.getJSON("http://127.0.0.1:5500/DESAFIOS-JS/desafios-js/Clase14-Ajax_jQuery/carreras.json", function(data) {
+$.getJSON("https://alvaroguzmandg.github.io/coderhouse-js/Clase14-Ajax_jQuery/carreras.json", function(data) {
     console.log(data)
 
     data.forEach(elemento => carrera.push(elemento))
