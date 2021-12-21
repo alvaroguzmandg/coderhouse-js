@@ -65,14 +65,3 @@ if (localStorage.getItem('carrerasRegistradas') === null) {
     contenedor.innerHTML = htmlString
 
 }
-
-
-// MouseOver Carreras Registradas
-let verCarreras = $("#contenedorCarrito")
-verCarreras.onmouseover = () => {
-    carritoCarreras.style.display = "block";
-
-}
-verCarreras.onmouseout = () => {
-    carritoCarreras.style.display = "none";
-}
