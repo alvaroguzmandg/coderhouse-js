@@ -28,7 +28,7 @@
     {
         "id": "4",
         "nombre": "Patagonia Run",
-        "distancia": "110k",
+        "distancia": "100k",
         "fecha": "7 de abril",
         "lugar": "Neuquen",
         "horario": "2AM",
@@ -64,7 +64,7 @@
     {
         "id": "8",
         "nombre": "San Silvestre",
-        "distancia": "8k",
+        "distancia": "10k",
         "fecha": "31 de diciembre",
         "lugar": "Capital Federal",
         "horario": "9AM",
@@ -100,7 +100,7 @@
     {
         "id": "12",
         "nombre": "Ciudad Verde 2018",
-        "distancia": "5k",
+        "distancia": "10k",
         "fecha": "9 de septiembre",
         "lugar": "Puerto Madero",
         "horario": "8AM",
@@ -144,7 +144,7 @@
     },
     {
         "id": "17",
-        "nombre": "Maratón La Pama",
+        "nombre": "Maratón La Pampa",
         "distancia": "42k",
         "fecha": "11 de abril",
         "lugar": "La pampa",
@@ -152,9 +152,9 @@
         "foto": "arquivos/42klapampa.png"
     },
     {
-        "id": "17",
-        "nombre": "Maratón La Pama",
-        "distancia": "5k",
+        "id": "18",
+        "nombre": "Hallowen Run",
+        "distancia": "10k",
         "fecha": "27 de octubre",
         "lugar": "Vicente Lopez",
         "horario": "20PM",
