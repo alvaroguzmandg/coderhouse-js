@@ -14,8 +14,6 @@ class Carrera {
 }
 
 $.getJSON("https://alvaroguzmandg.github.io/coderhouse-js/Clase14-Ajax_jQuery/carreras.json", function(data) {
-    console.log(data)
-
     data.forEach(elemento => carrera.push(elemento))
         //Función para cargar las carreras en el DOM
     calendarioDeCarreras();
