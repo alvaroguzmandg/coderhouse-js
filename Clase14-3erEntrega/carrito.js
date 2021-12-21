@@ -8,8 +8,6 @@ $(() => {
     }
 })
 
-
-
 //SLIDE DOWN/UP DEL CARRITO
 let desplegar = false;
 $("#bloqueCarrito").click(desplegarCarrito)

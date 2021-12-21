@@ -8,6 +8,7 @@ if (carrerasRegistradas) {
 
 }
 
+//Verifica el estado de inscripción a la carrera para actualizar el Array generado por el Json
 function verificarEstado() {
     for (let i = 0; i < carrito.length; i++) {
         let verificacionCarrito = carrito[i].id
@@ -37,15 +38,16 @@ function cargarCarrerasAlCarrito() {
                     .css({ "border": 0, "background-color": "black" })
                     .text("¡YA ESTÁS REGISTRADO!")
 
-
-                //Carreras se agregan al carrito
+                //Las carreras se agregan al carrito
                 carrito.push(carrera);
                 carrera.estado = true;
+
 
                 //Se muestras en el carrito las carreras
                 let contenedor = document.getElementById("carritoCarreras");
                 contenedor.innerHTML = " "
                 htmlString = "<ul>";
+                //Creación de cada carrera por separado en el Carrito
                 for (const id in carrito) {
                     let carrera = carrito[id]
                     htmlString += `<li id="carrera">
@@ -61,10 +63,15 @@ function cargarCarrerasAlCarrito() {
                 htmlString += "</ul>"
                 contenedor.innerHTML = htmlString
 
-
+                //Se almacenan las carreras en el carrito
                 localStorage.setItem('carrerasRegistradas', JSON.stringify(carrito));
+
+                //Se muestran la cantidad de carreras registradas
                 $(".tituloCarrito").text("CARRERAS REGISTRADAS (" + carrito.length + ")")
+
+                //Función que elimina carreras del carrito
                 quitarCarrera();
+
             }
         })
     })
@@ -84,6 +91,6 @@ function quitarCarrera() {
             $(".tituloCarrito").text("CARRERAS REGISTRADAS (" + carrito.length + ")")
         }
     }
+    //Actualización de carreras en el carrito
     cargarCarrerasAlCarrito()
-
 }

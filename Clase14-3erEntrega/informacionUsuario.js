@@ -1,3 +1,4 @@
+//Construcción del header de usuario
 let nombre = localStorage.getItem("usuario");
 $("#encabezadoUsuario").append(`
 <div id="headerUsuario" class="headerUsuario">
@@ -26,8 +27,6 @@ $("#btn").click(function cerrarSesion() {
 });
 
 
-
-
 //Revisa carreras Almacenadas en LocalStorage y las carga al Carrito
 if (localStorage.getItem('carrerasRegistradas') === null) {
     carrerasAlmacenadasArray = []
@@ -40,13 +39,13 @@ if (localStorage.getItem('carrerasRegistradas') === null) {
     contenedor.innerHTML = " "
     htmlString = "<ul>";
 
+    //Carga de cada carrera por separado en el Carrito
     for (let index = 0; index < carrerasAlmacenadasArray.length; index++) {
 
         foto = carrerasAlmacenadasArray[index].foto;
         nombre = carrerasAlmacenadasArray[index].nombre
         fecha = carrerasAlmacenadasArray[index].fecha
         id = carrerasAlmacenadasArray[index].id
-
 
         htmlString += `<li id="carrera">
                     <span class="carrito__carreraImagen"><img src="${foto}"></span>
@@ -59,9 +58,8 @@ if (localStorage.getItem('carrerasRegistradas') === null) {
                     `
 
 
-    }
 
+    }
     htmlString += "</ul>"
     contenedor.innerHTML = htmlString
-
 }
