@@ -21,7 +21,7 @@
         "nombre": "Carrera Maya",
         "distancia": "10k",
         "fecha": "25 de mayo",
-        "lugar": "Capital Federal",
+        "lugar": "Palermo",
         "horario": "7AM",
         "foto": "arquivos/mayas.png"
     },
@@ -78,5 +78,86 @@
         "lugar": "Neuquen",
         "horario": "6AM",
         "foto": "arquivos/cruce.png"
+    },
+    {
+        "id": "10",
+        "nombre": "Cruce de los Andes",
+        "distancia": "100k",
+        "fecha": "3 de diciembre",
+        "lugar": "Neuquen",
+        "horario": "6AM",
+        "foto": "arquivos/cruce.png"
+    },
+    {
+        "id": "11",
+        "nombre": "Cruce de los Andes",
+        "distancia": "100k",
+        "fecha": "3 de diciembre",
+        "lugar": "Neuquen",
+        "horario": "6AM",
+        "foto": "arquivos/cruce.png"
+    },
+    {
+        "id": "12",
+        "nombre": "Ciudad Verde 2018",
+        "distancia": "5k",
+        "fecha": "9 de septiembre",
+        "lugar": "Puerto Madero",
+        "horario": "8AM",
+        "foto": "arquivos/ciudad_verde.png"
+    },
+    {
+        "id": "13",
+        "nombre": "Carrera Verde",
+        "distancia": "10k",
+        "fecha": "16 de septiembre",
+        "lugar": "Puerto Madero",
+        "horario": "8AM",
+        "foto": "arquivos/carrera_verde.png"
+    },
+    {
+        "id": "14",
+        "nombre": "Reebok Reerun",
+        "distancia": "10k",
+        "fecha": "17 de septiembre",
+        "lugar": "Vicente Lopez",
+        "horario": "7AM",
+        "foto": "arquivos/reerun.png"
+    },
+    {
+        "id": "15",
+        "nombre": "Circuito Estaciones",
+        "distancia": "10k",
+        "fecha": "30 de septiembre",
+        "lugar": "Palermo",
+        "horario": "8AM",
+        "foto": "arquivos/circuitoEstaciones.png"
+    },
+    {
+        "id": "16",
+        "nombre": "21k La plata",
+        "distancia": "21k",
+        "fecha": "2 de diciembre",
+        "lugar": "La plata",
+        "horario": "7AM",
+        "foto": "arquivos/21klaplata.png"
+    },
+    {
+        "id": "17",
+        "nombre": "Maratón La Pama",
+        "distancia": "42k",
+        "fecha": "11 de abril",
+        "lugar": "La pampa",
+        "horario": "7AM",
+        "foto": "arquivos/42klapampa.png"
+    },
+    {
+        "id": "17",
+        "nombre": "Maratón La Pama",
+        "distancia": "5k",
+        "fecha": "27 de octubre",
+        "lugar": "Vicente Lopez",
+        "horario": "20PM",
+        "foto": "arquivos/hallowen.png"
     }
 ]

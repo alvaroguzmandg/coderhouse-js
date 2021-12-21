@@ -55,6 +55,7 @@ function calendarioDeCarreras() {
 
 //JSON que trae el llistado de carreras
 $.getJSON("https://alvaroguzmandg.github.io/coderhouse-js/Clase14-3erEntrega/carreras.json", function(data) {
+
     //Push del contenido carreras.json al array "carrera"
     data.forEach(elemento => carrera.push(elemento))
 
