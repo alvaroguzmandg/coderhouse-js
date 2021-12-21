@@ -1,0 +1,91 @@
+[{
+        "id": "1",
+        "nombre": "42k Buenos Aires",
+        "distancia": "42k",
+        "fecha": "11 de octubre",
+        "lugar": "Capital Federal",
+        "horario": "7AM",
+        "foto": "arquivos/42kBsAs.png",
+        "estado": false
+    },
+    {
+        "id": "2",
+        "nombre": "21 Buenos Aires",
+        "distancia": "21k",
+        "fecha": "11 de octubre",
+        "lugar": "Capital Federal",
+        "horario": "8AM",
+        "foto": "arquivos/21kBsAs.png",
+        "estado": false
+    },
+    {
+        "id": "3",
+        "nombre": "Carrera Maya",
+        "distancia": "10k",
+        "fecha": "25 de mayo",
+        "lugar": "Capital Federal",
+        "horario": "7AM",
+        "foto": "arquivos/mayas.png",
+        "estado": false
+    },
+    {
+        "id": "4",
+        "nombre": "Patagonia Run",
+        "distancia": "110k",
+        "fecha": "7 de abril",
+        "lugar": "Neuquen",
+        "horario": "2AM",
+        "foto": "arquivos/patagoniaRun110k.png",
+        "estado": false
+    },
+    {
+        "id": "5",
+        "nombre": "Chicago Marathon",
+        "distancia": "42k",
+        "fecha": "17 de octubre",
+        "lugar": "Chicago, USA",
+        "horario": "8AM",
+        "foto": "arquivos/42kchicago.png",
+        "estado": false
+    },
+    {
+        "id": "6",
+        "nombre": "21k Miami",
+        "distancia": "21k",
+        "fecha": "14 de enero",
+        "lugar": "Miami, USA",
+        "horario": "6AM",
+        "foto": "arquivos/21kmiami.png",
+        "estado": false
+    },
+    {
+        "id": "7",
+        "nombre": "Nono Race",
+        "distancia": "60k",
+        "fecha": "13 de junio",
+        "lugar": "Córdoba",
+        "horario": "5AM",
+        "foto": "arquivos/nono.png",
+        "estado": false
+    },
+    {
+        "id": "8",
+        "nombre": "San Silvestre",
+        "distancia": "8k",
+        "fecha": "31 de diciembre",
+        "lugar": "Capital Federal",
+        "horario": "9AM",
+        "foto": "arquivos/sanSilvestre.png",
+        "estado": false
+    },
+    {
+        "id": "9",
+        "nombre": "Cruce de los Andes",
+        "distancia": "100k",
+        "fecha": "3 de diciembre",
+        "lugar": "Neuquen",
+        "horario": "6AM",
+        "foto": "arquivos/cruce.png",
+        "estado": false
+    }
+]
